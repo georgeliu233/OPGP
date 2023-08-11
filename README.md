@@ -8,3 +8,20 @@ This repo is the implementation of:
 <br> **[[arXiv]](https://arxiv.org/abs/2305.03303)**&nbsp;
 
 - Code will be released soon (undergoing internal scrutiny);
+
+## Overview
+In this repository, you can expect to find the following features 🤩:
+* Pipelines for data process and training
+* Open-loop evaluations
+  
+Not included 😵:
+* Model weights (Due to license from WOMD)
+* Real-time planning (Codes are not optimized for real-time performance)
+
+## Experiment Pipelines
+
+### Dataset and Environment
+
+### Data Process
+
+### Training & Testing
