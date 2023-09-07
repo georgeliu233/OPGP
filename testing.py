@@ -137,12 +137,12 @@ if __name__ == "__main__":
 
     planner = DiffPlanner(device=local_rank,g_length=1200,g_width=60, horizon=5,test_iters=50)
 
-    assert args.load_dir != '', 'you must load a pretrained weights for OL testing!'
+    assert args.model_dir != '', 'you must load a pretrained weights for OL testing!'
     kw_dict = {}
-    for k,v in torch.load(args.load_dir,map_location=torch.device('cpu')).items():
+    for k,v in torch.load(args.model_dir,map_location=torch.device('cpu')).items():
         kw_dict[k[7:]] = v
     model.load_state_dict(kw_dict)
-    continue_ep = int(args.load_dir.split('_')[-3]) - 1
+    continue_ep = int(args.model_dir.split('_')[-3]) - 1
     print(f'model loaded!:epoch {continue_ep + 1}')
 
     test_dataset = DrivingData(args.data_dir + f'*.npz', use_flow=True)
