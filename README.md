@@ -40,7 +40,7 @@ python preprocess.py \
 --processes=16
 ```
 
-- You can also refer to [Waymo_candid_list](https://github.com/MCZhi/GameFormer/blob/main/open_loop_planning/waymo_candid_list.csv) for more interactive and safety-critical scenarios filtered in ```scenario/validation```
+- You may also refer to [Waymo_candid_list](https://github.com/MCZhi/GameFormer/blob/main/open_loop_planning/waymo_candid_list.csv) for more interactive and safety-critical scenarios filtered in ```scenario/validation```
 
 ### Training & Testing
 
