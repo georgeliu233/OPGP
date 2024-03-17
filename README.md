@@ -5,7 +5,7 @@ This repo is the implementation of:
 **Occupancy Prediction-Guided Neural Planner for Autonomous Driving**
 <br> [Haochen Liu](https://scholar.google.com/citations?user=iizqKUsAAAAJ&hl=en), [Zhiyu Huang](https://mczhi.github.io/),  [Chen Lv](https://scholar.google.com/citations?user=UKVs2CEAAAAJ&hl=en) 
 <br> [AutoMan Research Lab, Nanyang Technological University](https://lvchen.wixsite.com/automan)
-<br> **[[arXiv]](https://arxiv.org/abs/2305.03303)**&nbsp; **[[Zhihu]](https://zhuanlan.zhihu.com/p/680304839)**&nbsp;
+<br> **[[Paper]](https://ieeexplore.ieee.org/abstract/document/10422055/)**&nbsp; **[[arXiv]](https://arxiv.org/abs/2305.03303)**&nbsp; **[[Zhihu]](https://zhuanlan.zhihu.com/p/680304839)**&nbsp;
 
 - Code is now released 😀!
 
@@ -67,9 +67,11 @@ python testing.py \
 If you find this repository useful for your research, please consider giving us a star &#127775; and citing our paper.
 
 ```angular2html
-@article{liu2023occupancy,
-  title={Occupancy Prediction-Guided Neural Planner for Autonomous Driving},
+@inproceedings{liu2023occupancy,
+  title={Occupancy prediction-guided neural planner for autonomous driving},
   author={Liu, Haochen and Huang, Zhiyu and Lv, Chen},
-  journal={arXiv preprint arXiv:2305.03303},
-  year={2023}
+  booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},
+  pages={4859--4865},
+  year={2023},
+  organization={IEEE}
 }
